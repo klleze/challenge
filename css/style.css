@@ -83,7 +83,11 @@ h2 {
   background-image: url(../icons/phonebar.svg); /*ios phone data bar*/
   background-repeat: no-repeat;
   position: absolute;
-  left: 0px;
+  z-index: 999;
+  width: 337px;
+  height: 25px;
+  left: 450px;
+  bottom: 50px;
 }
 
 .map-img {
