@@ -11,7 +11,7 @@ body {
   margin: 30%;
   width: 375px;
   height: 1600px;
-  padding-top: 155px;
+  padding-top: 170px;
 }
 
 .container h2 {
@@ -78,21 +78,14 @@ h2 {
   color: #737273;
 }
 
-/*images and icons
-.container, statusbar {
-  background-image: url(../icons/phonebar.svg);
-  position: absolute;
-  top: 500px;
-
-}*/
-
-.arrow {
-  background-image: url(../icons/right.svg);
+/*images and icons*/
+.status-bar {
+  background-image: url(../icons/phonebar.svg); /*ios phone data bar*/
   background-repeat: no-repeat;
-  position: relative;
-  left: 200px;
-
+  position: absolute;
+  left: 0px;
 }
+
 .map-img {
   display: block;
   width: 375px;
@@ -106,9 +99,9 @@ h2 {
 /*search bar*/
 .search {
   background-color: #F3F2F4;
-  position: relative;
-  top: -80px;
-  left: 8%;
+  position: absolute;
+  top: 500px;
+  left: 460px;
   width: 317px;
   height: 40px;
   border-radius: 10px;
