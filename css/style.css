@@ -99,10 +99,10 @@ h2 {
 .map-img {
   display: block;
   width: 375px;
-  height: 400px;
+  height: 300px;
   position: relative;
+  top: -50px;
   left: auto 0;
-  bottom: 50px;
   background-image: url(../icons/mapsimg.png);
 }
 
