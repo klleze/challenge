@@ -3,12 +3,12 @@
 }
 
 body {
-  background-color: black;
+  background-color: #737273;
 }
 
 .container {
   background-color: #F5F8FA;
-  margin: 30%;
+  margin: 0 auto;
   position: relative;
   width: 375px;
   max-height: 812px;
@@ -130,4 +130,5 @@ nav {
   position: relative;
   top: -170px;
   padding-top: 170px;
+  background-color: #F5F8FA;
 }
