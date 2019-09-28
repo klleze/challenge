@@ -37,6 +37,10 @@ body {
   border-color: #C4C4C4;
 }
 
+div {
+  padding-top: 570px;
+}
+
 /*headers:line, destination, frequency*/
 .content-table th {
   background-color: rgba(71,69,173,.48);
@@ -99,7 +103,7 @@ h2 {
 .map-img {
   display: block;
   width: 375px;
-  height: 300px;
+  height: 370px;
   position: relative;
   top: -50px;
   left: auto 0;
