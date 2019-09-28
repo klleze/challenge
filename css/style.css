@@ -11,9 +11,9 @@ body {
   margin: 0 auto;
   position: relative;
   width: 375px;
+  height: 812px;
   max-height: 812px;
   overflow-y: scroll;
-  padding-top: 170px;
 }
 
 
@@ -128,7 +128,7 @@ h2 {
 
 nav {
   position: relative;
-  top: -170px;
+  top: 0;
   padding-top: 170px;
   background-color: #F5F8FA;
 }
