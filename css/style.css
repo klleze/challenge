@@ -93,7 +93,7 @@ h2 {
   width: 100%;
   height: 40px;
   left: 14px;
-  top: -160px;
+  top: 5px;
 }
 
 .map-img {
@@ -110,7 +110,7 @@ h2 {
 .search {
   background-color: #F3F2F4;
   position: absolute;
-  top: -110px;
+  top: 65px;
   left: 25px;
   width: 317px;
   height: 40px;
@@ -122,9 +122,12 @@ h2 {
   color: #959496;
   background-image: url(../icons/Search.png);
   background-repeat: no-repeat;
+  background-position: 6px 10px;
+  background-size: 17px;
 }
 
 nav {
-  position: sticky;
-  top: 0px;
+  position: relative;
+  top: -170px;
+  padding-top: 170px;
 }
