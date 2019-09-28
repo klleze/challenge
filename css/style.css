@@ -124,12 +124,7 @@ h2 {
   background-repeat: no-repeat;
 }
 
-.back {
-  height: 20px;
-  width: 20px;
-}
-
 nav {
   position: sticky;
-  top: 0;
+  top: 0px;
 }
