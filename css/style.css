@@ -10,9 +10,9 @@ body {
   background-color: #F5F8FA;
   margin: 0 auto;
   width: 375px;
-  height: 812px;
+  height: auto;
   max-height: 812px;
-  overflow: scroll;
+  overflow: auto;
 }
 
 
@@ -34,7 +34,6 @@ body {
   border-width: 2px;
   border-right: 0.25px;
   border-color: #C4C4C4;
-  overflow: hidden;
 }
 
 /*headers:line, destination, frequency*/
@@ -59,7 +58,7 @@ body {
 .content-table th,
 .content-table td {
   padding: 12px 15px;
-  font-family: roboto, sans-serif;
+  font-family: "roboto", sans-serif;
   font-weight: normal;
   text-decoration: none;
 }
@@ -106,6 +105,8 @@ h2 {
   height: 40px;
   border-radius: 10px;
   border: none;
+  margin-bottom: 15px;
+  margin-left: 25px;
   text-align: center;
   font-size: 20px;
   color: #959496;
@@ -113,4 +114,8 @@ h2 {
   background-repeat: no-repeat;
   background-position: 6px 10px;
   background-size: 17px;
+}
+
+nav {
+  position: fixed;
 }
