@@ -37,10 +37,6 @@ body {
   overflow: hidden;
 }
 
-div {
-  padding-top: 570px;
-}
-
 /*headers:line, destination, frequency*/
 .content-table th {
   background-color: rgba(71,69,173,.48);
