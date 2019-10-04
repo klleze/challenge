@@ -6,6 +6,10 @@ body {
   background-color: #737273;
 }
 
+div {
+  margin-top: 480px;
+}
+
 .container {
   background-color: #F5F8FA;
   margin: 0 auto;
@@ -42,7 +46,7 @@ body {
   color: white;
   text-align: left;
   font-weight: normal;
-  font-family: roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
 
 }
 
@@ -58,7 +62,7 @@ body {
 .content-table th,
 .content-table td {
   padding: 12px 15px;
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
   text-decoration: none;
 }
@@ -76,7 +80,7 @@ h2 .direction {
 }
 
 h2 {
-  font-family: roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
   color: #737273;
 }
@@ -118,4 +122,5 @@ h2 {
 
 nav {
   position: fixed;
+  background-color: #F5F8FA;
 }
