@@ -124,3 +124,7 @@ nav {
   position: fixed;
   background-color: #F5F8FA;
 }
+
+::-webkit-scrollbar {    /*hide scroll bar*/
+  display: none;
+}
