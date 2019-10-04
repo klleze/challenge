@@ -125,6 +125,7 @@ nav {
   background-color: #F5F8FA;
 }
 
-::-webkit-scrollbar {    /*hide scroll bar*/
+ /*hide scroll bar*/
+::-webkit-scrollbar {
   display: none;
 }
