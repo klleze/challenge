@@ -51,9 +51,9 @@ div {
 }
 
 /*line numbers*/
-.content-table td:first-child {
+/* .content-table td:first-child {
   color: #737273;
-}
+} */
 
 .route {
   background: #F8F9FB;
@@ -128,4 +128,12 @@ nav {
  /*hide scroll bar*/
 ::-webkit-scrollbar {
   display: none;
+}
+
+.red-font {
+  color: #B23333;
+}
+
+.gray-font {
+  color: #767676;
 }
