@@ -21,6 +21,10 @@ body{
   padding-top: 10px;
 }
 
+.container2{
+  margin-top: 3%;
+}
+
 /*Header*/
 header{
   background-color: #171111;
@@ -59,52 +63,143 @@ header nav{
   float: right;
 }
 
-.spacing{
-  height: 60px;
+
+/*<------Case Studies------>*/
+
+/*red case study*/
+button.accordion{
+  cursor:pointer;
+  border:none;
+  outline:none;
+  width:100%;
+  text-align:left;
+  background-color:red;
+  color:#fff;
+  padding:8px;
+  margin:0;
+  border-radius:4px;
+  transition:0.3s;
 }
 
-/*red line case study*/
-.expanding{
-  transition: height 1s ease-in-out;
-  width: 100%;
-  height: 10px;
-  background-color: red;
+button.accordion:hover{
+  background-color:#F2EEEE;
 }
 
-.expanding:hover{
-  width: 100%;
-  height: 500px;
-  background-color: red;
+button.accordion.active{
+  background-color:red;
+  color:#000;
+  border-radius:4px 4px 0 0;
+  margin:0;
+ }
+
+div.panel{
+  background-color:red;
+  color:#000;
+  border-radius:0 0 4px 4px;
+  overflow:hidden;
+  opacity:0;
+  max-height:0;
+  transition:0.3s;
+  padding:0 8px;
+  margin:0;
 }
 
-/*orange line case study*/
-.expanding2{
-  margin-top: 30px;
-  transition: height 1s ease-in-out;
-  width: 100%;
-  height: 10px;
-  background-color: orange;
+div.panel.show{
+  opacity:1;
+  height: 400px;
+  max-height:500px;
+  padding:8px;
+  margin:0;
 }
 
-.expanding2:hover{
-  margin-top: 30px;
-  width: 100%;
-  height: 500px;
-  background-color: orange;
+/*orange case study*/
+button.accordion2{
+  cursor:pointer;
+  border:none;
+  outline:none;
+  width:100%;
+  text-align:left;
+  background-color:orange;
+  color:#fff;
+  padding:8px;
+  margin:0;
+  border-radius:4px;
+  transition:0.3s;
 }
 
-/*yellow line case study*/
-.expanding3{
-  margin-top: 30px;
-  transition: height 1s ease-in-out;
-  width: 100%;
-  height: 10px;
-  background-color: yellow;
+button.accordion2:hover{
+  background-color:#F2EEEE;
 }
 
-.expanding3:hover{
-  margin-top: 30px;
-  width: 100%;
-  height: 500px;
-  background-color: yellow;
+button.accordion2.active{
+  background-color:orange;
+  color:#000;
+  border-radius:4px 4px 0 0;
+  margin:0;
+ }
+
+div.panel2{
+  background-color:orange;
+  color:#000;
+  border-radius:0 0 4px 4px;
+  overflow:hidden;
+  opacity:0;
+  max-height:0;
+  transition:0.3s;
+  padding:0 8px;
+  margin:0;
+}
+
+div.panel2.show{
+  opacity:1;
+  height: 400px;
+  max-height:500px;
+  padding:8px;
+  margin:0;
+}
+
+/*yellow case study*/
+button.accordion3{
+  cursor:pointer;
+  border:none;
+  outline:none;
+  width:100%;
+  text-align:left;
+  background-color:yellow;
+  color:#fff;
+  padding:8px;
+  margin:0;
+  border-radius:4px;
+  transition:0.3s;
+}
+
+button.accordion3:hover{
+  background-color:#F2EEEE;
+}
+
+button.accordion3.active{
+  background-color:yellow;
+  color:#000;
+  border-radius:4px 4px 0 0;
+  margin:0;
+ }
+
+div.panel3{
+  background-color:yellow;
+  color:#000;
+  border-radius:0 0 4px 4px;
+  overflow:hidden;
+  opacity:0;
+  max-height:0;
+  transition:0.3s;
+  padding:0 8px;
+  margin:0;
+}
+
+div.panel3.show{
+  opacity:1;
+  height: 400px;
+  max-height:500px;
+  padding:8px;
+  margin:0;
 }

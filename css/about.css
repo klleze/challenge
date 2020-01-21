@@ -1,0 +1,69 @@
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #171111;
+}
+
+/*Global Styling*/
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.container #logo h1{
+  font-size: 20px;
+}
+.container h1, h2{
+  color: white;
+  font-weight: lighter;
+  font-size: 40px;
+  padding-top: 10px;
+}
+
+.bio{
+  color: white;
+  font-size: 16px;
+  width: 50%;
+  padding-top: 3%;
+  margin:auto;
+  overflow: hidden;
+}
+
+/*Header*/
+header{
+  background-color: #171111;
+  color: white;
+  padding-top: 30px;
+  min-height: 70px;
+}
+
+header a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header ul{
+  margin: 0;
+  padding: 0;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #logo{
+  float: left;
+}
+
+header #logo h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+}
