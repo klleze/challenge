@@ -1,0 +1,110 @@
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #171111;
+}
+
+/*Global Styling*/
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.container #logo h1{
+  font-size: 20px;
+}
+.container h1, h2{
+  color: white;
+  font-weight: lighter;
+  font-size: 40px;
+  padding-top: 10px;
+}
+
+/*Header*/
+header{
+  background-color: #171111;
+  color: white;
+  padding-top: 30px;
+  min-height: 70px;
+}
+
+header a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header ul{
+  margin: 0;
+  padding: 0;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #logo{
+  float: left;
+}
+
+header #logo h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+}
+
+.spacing{
+  height: 60px;
+}
+
+/*red line case study*/
+.expanding{
+  transition: height 1s ease-in-out;
+  width: 100%;
+  height: 10px;
+  background-color: red;
+}
+
+.expanding:hover{
+  width: 100%;
+  height: 500px;
+  background-color: red;
+}
+
+/*orange line case study*/
+.expanding2{
+  margin-top: 30px;
+  transition: height 1s ease-in-out;
+  width: 100%;
+  height: 10px;
+  background-color: orange;
+}
+
+.expanding2:hover{
+  margin-top: 30px;
+  width: 100%;
+  height: 500px;
+  background-color: orange;
+}
+
+/*yellow line case study*/
+.expanding3{
+  margin-top: 30px;
+  transition: height 1s ease-in-out;
+  width: 100%;
+  height: 10px;
+  background-color: yellow;
+}
+
+.expanding3:hover{
+  margin-top: 30px;
+  width: 100%;
+  height: 500px;
+  background-color: yellow;
+}
