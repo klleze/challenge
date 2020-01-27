@@ -203,3 +203,15 @@ div.panel3.show{
   padding:8px;
   margin:0;
 }
+
+/*Case Study Button*/
+.btn{
+  background: none;
+  padding: 20px 60px;
+  border-radius: 10px;
+  border-width: 2.5px;
+  font-family: Arial;
+  color: white;
+  font-size: 18px;
+  margin: 50px 50px 50px 50px;
+}
